@@ -1,0 +1,19 @@
+.home-card-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-link {
+  text-decoration: none;
+}
+
+.home-card-image {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.home-card-text {
+  color: #ffffff;
+  font-size: 14px;
+  margin-top: 8px;
+}

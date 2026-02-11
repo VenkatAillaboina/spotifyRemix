@@ -1,0 +1,60 @@
+.navbar-container {
+  background-color: #040306;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-container {
+    display: none;
+  }
+}
+
+.navbar-top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  width: 90px;
+}
+
+.navbar-hamburger-and-cross-btn {
+  background: none;
+  border: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.navbar-hamburger-and-cross-btn svg {
+  font-size: 26px;
+}
+
+.navbar-menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 12px 0 0 0;
+  background-color: #040306;
+}
+
+.navbar-logout-btn {
+  width: 100%;
+  background: none;
+  border: none;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.navbar-logout-icon {
+  font-size: 18px;
+}
